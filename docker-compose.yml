@@ -1,0 +1,10 @@
+services:
+  python3:
+    restart: always
+    build: .
+    container_name: 'Hotelling's T-squared method'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - /mnt/c/Users/User/Desktop/lab/Anomaly-detection/opt:/opt
+
